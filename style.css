@@ -1,0 +1,67 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.box img {
+    width: 100px;
+    height: 100px;
+
+}
+.box{
+    background-color: rgb(155, 156, 144);
+    background-image: url("https://images.unsplash.com/photo-1682685797229-b2930538da47?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+    );
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 600px;
+    text-align: center;
+    padding: 50px 30px;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    box-shadow: 3px 3px 7px rgba(181,160, 127,03 );
+    
+cursor: pointer;}
+.box h1{
+   font-size:20px;
+   padding-top: 80px;
+   font-weight: 900;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.box p{
+
+    padding-top:7px;
+    font-weight: 500;
+    font-family: Helvetica;
+}
+
+.box button{
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: black;
+    background-color: rgba(81, 91, 110, 0.582);
+    background-color: black;
+    color: antiquewhite;
+    width: 351px;
+    position: absolute;
+  top:93% ;  
+  left: 0; 
+  border: 10px;
+  box-shadow: 3px 3px 7px rgba(181,160, 127,03 );
+}
+.box button:hover{
+    color: rgb(248, 246, 246);
+    background-color: rgba(37, 38, 41, 0.582);
+    cursor: pointer;
+}
